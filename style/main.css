@@ -1,3 +1,4 @@
+
 html{
     background-color: black;
 }
@@ -6,14 +7,14 @@ body{
     background-color: #444444;
     margin-left:  290px;
     margin-right: 290px;
-    padding: 45px;
+    padding: 50px;
   
 }
 .WendyN {
     border: #777777 solid 5px;  
     text-align: center;
     font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
-    font-size: 24px;
+    font-size: 22px;
     }
 #bettImg { 
     border: #777777 solid 2px;
@@ -28,7 +29,7 @@ a:link, a:visited {
 h1{
     font-style: italic;
 }
-h2 {
+h2, h4, ul {
     text-align: left;
 }
 p {
@@ -36,7 +37,9 @@ p {
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px; 
- 
+}
+h4, .opacity {
+    opacity: .5;
 }
 hr, div{ 
   margin: 40px;
